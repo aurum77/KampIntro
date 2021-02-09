@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KampIntro", "KampIntro\Kamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{02C175C9-7CC7-44E7-97D3-B8D16C18530F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueOrReference", "PassByValueOrReference\ValueOrReference.csproj", "{1B5C2DF2-6AF2-4980-A6BA-2B242383602F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueOrReference", "PassByValueOrReference\ValueOrReference.csproj", "{1B5C2DF2-6AF2-4980-A6BA-2B242383602F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1B5C2DF2-6AF2-4980-A6BA-2B242383602F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5C2DF2-6AF2-4980-A6BA-2B242383602F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5C2DF2-6AF2-4980-A6BA-2B242383602F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
