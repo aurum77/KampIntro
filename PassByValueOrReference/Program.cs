@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ValueOrReference
 {
@@ -25,6 +26,12 @@ namespace ValueOrReference
             arr2[0] = 777;
             Console.WriteLine(arr1[0]);
             Console.WriteLine(arr1[1]);
+            
+            // 'out' keyword has a similar behavior to 'ref'
+            // the main difference between them is on 'ref'
+            // the passed in variable needs to be
+            // initialized, for instance
+            // int n; -> can be passed with keyword 'out', can't be passed with keyword 'ref'
 
             int a = 117;
             Console.WriteLine("Value of a in main: " + a);
@@ -32,6 +39,9 @@ namespace ValueOrReference
             Console.WriteLine("Value of a in main after pass by value: " + a);
             PrintNumber2(ref a);
             Console.WriteLine("Value of a in main after pass by reference: " + a);
+
+            // 'params' keyword allows us to pass in an infinite number of values into a method
+            Console.WriteLine(SumWithParams(1, 2, 3, 4, 5, 6, 7));
         }
 
         // Pass parameter by value
@@ -46,6 +56,11 @@ namespace ValueOrReference
         {
             a = 7;
             Console.WriteLine("Value of a in pass by reference: " + a);
+        }
+
+        static int SumWithParams(params int[] numbers)
+        {
+            return numbers.Sum();
         }
     }
 }
