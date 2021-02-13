@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueOrReference", "PassByV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{8B896CCB-D27F-4C2B-8009-CA8346BF4FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{131A0C91-9D09-4932-A24A-71F0936F01DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{131A0C91-9D09-4932-A24A-71F0936F01DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{B4762189-900A-417F-8E3D-0A68F2EE487E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{131A0C91-9D09-4932-A24A-71F0936F01DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131A0C91-9D09-4932-A24A-71F0936F01DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131A0C91-9D09-4932-A24A-71F0936F01DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4762189-900A-417F-8E3D-0A68F2EE487E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4762189-900A-417F-8E3D-0A68F2EE487E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4762189-900A-417F-8E3D-0A68F2EE487E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4762189-900A-417F-8E3D-0A68F2EE487E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
